@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro&display=swap');
+
+*,*::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+header{
+   
+    height: 95vh;
+    background:url('images/bg.png');
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0 80%);
+    position: relative;
+}
+
+.logo{
+    height: 50px;
+    position: absolute;
+    top: 30px;
+    left: 30px; 
+}
+
+.main-header{
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.head-text{
+    margin-bottom: 150px;
+}
+
+header h2{
+     font-family: carosello;
+    font-size: 40px;
+    padding: 150px, 150px;
+
+}
+
+header h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    letter-spacing: 30px;
+    padding-left: 30px;
+}
+
+.btn{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Maven Pro', sans-serif;
+     font-size: 18px;
+    border: 1px solid #fff;
+    padding: 14px 50px;
+    text-transform: uppercase;
+}
